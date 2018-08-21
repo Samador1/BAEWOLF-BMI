@@ -9,7 +9,7 @@ def height():
 def BMI():
     Weight = weight()
     Height = height()
-    BMI = (WEight * 703) / (Height * Height)
+    BMI = (Weight * 703) / (Height * Height)
     return Weight, Height, BMI
 
 def display():
